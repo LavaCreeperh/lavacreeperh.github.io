@@ -2,6 +2,20 @@
   
 <title>zt备份站点</title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <link rel="stylesheet" href="/css/hwaifu.css">
+
+<input type="hidden" id="baseurl" value="">
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+</div>
+
+<script async src="/js/jquery.min.js"></script>
+<script async src="/js/waifu-tips.js"></script>
+<script src="/js/live2d.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d","/js/model.json");
+</script>
   
   
   
